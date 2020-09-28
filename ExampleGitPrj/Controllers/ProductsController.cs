@@ -21,5 +21,10 @@ namespace ExampleGitPrj.Controllers
         {
             return View();
         }
+
+        public IActionResult Delete()
+        {
+            return View();
+        }
     }
 }
